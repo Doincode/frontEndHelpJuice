@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front-end developer test project</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <script src="./index.js"></script>
+</head>
+
+<body>
+    <nav>
+        <div>
+            <div>
+                <img src="./Icons/chevronDoubleRight.svg" alt="chevron double right">
+                <div>
+                    <img src="./Icons/book.svg" alt="Book">
+                    <a href="#nothingToSee">Main</a>
+                </div>
+                / 
+                <a href="#nothingToSee">Getting started</a>
+                /
+                <a href="#nothingToSee">Frond-end developer test proje...</a>
+            </div>
+            <div>
+                <img src="./Icons/lockOpen.svg" alt="open lock">
+                <a href="">Editing</a>
+                |
+                <a href="#nothingToSee">Publish Space</a>
+                <img src="./Icons/chevronDown.svg" alt="">
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div id="infoBar">
+            <div>
+                <div>
+                    <ul>
+                        <li>P</li>|
+                        <li><img src="./Icons/clock.svg" alt="clock icon">0min</li>|
+                        <li><img id="userIcon" src="./Icons/userIcon.svg" alt="user icon"></li>|
+                        <li><img id="arrowDown" src="./Icons/arrowDown.svg" alt="arrow down">0</li>
+                    </ul>
+                </div>
+                <div id="optionsMenu">
+                    <a href=""><img src="./Icons/checked.svg" alt="checked icon"></a>
+                    <a href=""><img src="./Icons/cloud.svg" alt="cloud icon"></a>
+                    <a href=""><img src="./Icons/menu.svg" alt="options icon"></a>
+                </div>
+            </div>
+        </div>
+        <div id="userPanel">
+            <div id="blockMenu">
+                <div>
+                    <p>Add blocks</p>
+                    <small>Keep typing to filter, or espace to exit</small>
+                </div>
+                <span>Filtering keyword<b id="keyword"></b></span>
+                <ul>
+                    <li id="headingOne">
+                        <img src="./Icons/t.svg" alt="">
+                        <div>
+                            <p>Heading 1</p>
+                            <small>Shortcut: Type # + space</small>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./Icons/t.svg" alt="">
+                        <div>
+                            <p>Expandable Heading 1</p>
+                            <small>Shortcut: Type >># + space</small>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <input type="text" value="Front-end developer test project" id="pageTitle">
+            <!-- <input type="text" placeholder="Type / for blocks, @ to link docs or people"> -->
+            <div id="blocksContainer">
+                <textarea data-id="1" placeholder="Type / for blocks, @ to link docs or people" rows="5" >Your goal is to make a page that looks exactly like this one, and has the ability to create H1 text simply by typing / then 1, then typing text, and hitting enter.</textarea>
+                <textarea data-id="2" placeholder="Type / for blocks, @ to link docs or people"></textarea>
+            </div>
+        </div>
+    </main>
+    <a href="#" id="helpButton">
+        <img src="./Icons/question.svg" alt="">
+    </a>
+</body>
+</html>

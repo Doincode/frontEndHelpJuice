@@ -1,12 +1,10 @@
-Documentation still in progress.
-
 Before consuming this Read Me, please consider: 
 
-- I admit that some time working in documentation writing might be necessary;
-- There are a few sleeps in my code, I'll be the first to point at them (if I spot it first);
-- I really took to consideration the "IDEALLY Vanilla JS!" part of the test description;
-- I did not stressed about directory management and folder architechture as this is set to be more of a display of coding skilss;
-- This is a PHP code for Heroku
+- I admit that some time working in documentation writing might be necessary.
+- There are a few sleeps in my code, I'll be the first to point at them (if I spot it first).
+- I really took to consideration the "IDEALLY Vanilla JS!" part of the test description.
+- I did not stressed about directory management and folder architechture as this is set to be more of a display of coding skils.
+- This is a PHP code for Heroku.
 - Thank you for reading so far!
 
 
